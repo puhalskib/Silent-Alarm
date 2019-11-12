@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Silent Alarm</string>
+    <string name="alarmstr">Alarms</string>
+    <string name="settingstr">Settings</string>
 </resources>

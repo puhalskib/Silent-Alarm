@@ -21,6 +21,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.40">
 
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:format12Hour="hh:mm:ss a"
+            android:gravity="center_horizontal"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintDate"
             android:layout_width="match_parent"
